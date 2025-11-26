@@ -9,8 +9,40 @@
       "type": "string"
     },
     "image": {
-      "type": "string",
-      "description": ""
+      "additionalProperties": false,
+      "type": "object",
+      "description": "",
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "path"
+      ]
+    },
+    "additional_images": {
+      "type": "array",
+      "description": "",
+      "items": {
+        "additionalProperties": false,
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "path"
+        ]
+      },
+      "minItems": 0
     },
     "item_type": {
       "type": "string"

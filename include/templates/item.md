@@ -1,8 +1,14 @@
 {% if item.image is defined %}
 
-<figure markdown="span">
-  ![{{ item["name"] }}](site:assets/{{ item["image"] }}){ width="300" }
-</figure>
+{% if item["image"].description is defined %}
+
+![{{ item["name"] }}](site:assets/{{ item["image"]["path"] }}){ data-description="{{ item["image"]["description"] }}" align=right width="300" }
+
+{% else %}
+
+![{{ item["name"] }}](site:assets/{{ item["image"]["path"] }}){ data-description="{{ item["name"] }}" align=right width="300" }
+
+{% endif %}
 
 {% endif %}
 

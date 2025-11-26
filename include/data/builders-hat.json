@@ -1,6 +1,8 @@
 {
     "name": "Builder's Hat",
-    "image": "builders-hat.webp",
+    "image": {
+        "path": "builders-hat.webp"
+    },
     "item_type": "turtle_helmet",
     "enchantments": [
         {

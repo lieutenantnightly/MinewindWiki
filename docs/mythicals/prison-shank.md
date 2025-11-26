@@ -15,3 +15,6 @@ The Prison Shank was a [[mythical]] Flint, [[angry-broom]] and Prison Shank were
 
 {% set item = read_json('include/data/prison-shank.json') %}
 {% include 'templates/item.md' %}
+
+## Gallery
+{% include 'templates/item-gallery.md' %}

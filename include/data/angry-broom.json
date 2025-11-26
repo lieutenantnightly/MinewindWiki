@@ -1,6 +1,22 @@
 {
     "name": "Angry Broom",
-    "image": "angry-broom.webp",
+    "image": {
+        "path": "angry-broom.webp",
+        "description": "Item in game"
+    },
+    "additional_images": [
+        {
+            "path": "builders-hat.webp",
+            "description": "A hat"
+        },
+        {
+            "path": "angry-broom.webp"
+        },
+        {
+            "path": "devilfish.webp",
+            "description": "A fish"
+        }
+    ],
     "item_type": "wheat",
     "enchantments": [
         {

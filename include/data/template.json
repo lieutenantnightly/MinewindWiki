@@ -1,6 +1,9 @@
 {
     "name": "Required",
-    "image": "Optional",
+    "image": {
+        "path": "Optional",
+        "description": "optional"
+    },
     "item_type": "Required?",
     "key_type": "optional",
     "lore_origin": "optional",

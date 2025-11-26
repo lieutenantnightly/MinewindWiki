@@ -1,6 +1,8 @@
 {
     "name": "Devilfish",
-    "image": "devilfish.webp",
+    "image": {
+        "path": "devilfish.webp"
+    },
     "item_type": "fish",
     "enchantments": [
         {

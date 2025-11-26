@@ -62,6 +62,7 @@ plugins:
   - search
   - alias
   - site-urls
+  - glightbox
   - macros:
       include_dir: include
       module_name: include/source_code/read_json

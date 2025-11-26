@@ -1,6 +1,8 @@
 {
     "name": "Prison Shank",
-    "image": "prison-shank.webp",
+    "image": {
+        "path": "prison-shank.webp"
+    },
     "item_type": "flint",
     "enchantments": [
         {

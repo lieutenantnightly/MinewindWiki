@@ -11,3 +11,5 @@ The Devilfish was a [[mythical]] fish. The fish seems to have granted many buffs
 {% set item = read_json('include/data/devilfish.json') %}
 {% include 'templates/item.md' %}
 
+## Gallery
+{% include 'templates/item-gallery.md' %}
