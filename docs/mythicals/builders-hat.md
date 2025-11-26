@@ -63,4 +63,4 @@ The Builder's Hat is a [[mythical]] Turtle helmet that was awarded to Sliquifier
 %}
 
 {% set item = builders_hat %}
-{% include 'item.md' %}
+{% include 'templates/item.md' %}

@@ -29,4 +29,4 @@ The Angry broom is a [[mythical]] Wheat, Angry Broom and [[prison-shank]] were g
 %}
 
 {% set item = angry_broom %}
-{% include 'item.md' %}
+{% include 'templates/item.md' %}

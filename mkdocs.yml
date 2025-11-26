@@ -64,6 +64,7 @@ plugins:
   - site-urls
   - macros:
       include_dir: include
+      module_name: include/source_code/read_json
   - autorefs:
       resolve_closest: true
 

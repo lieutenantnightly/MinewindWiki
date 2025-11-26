@@ -30,4 +30,4 @@ The Prison Shank was a [[mythical]] Flint, [[angry-broom]] and Prison Shank were
 %}
 
 {% set item = prison_shank %}
-{% include 'item.md' %}
+{% include 'templates/item.md' %}

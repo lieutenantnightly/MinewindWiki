@@ -1,0 +1,67 @@
+{
+    "name": "Required",
+    "image": "Optional",
+    "item_type": "Required?",
+    "key_type": "optional",
+    "lore_origin": "optional",
+    "enchantments": [
+        {
+            "name": "required",
+            "level": "optional",
+            "hidden": "optional",
+            "note": "optional"
+        }
+    ],
+    "lore": [
+        "Contains the power of over 9000 fish!",
+        "Caught by: CntyMcShttr"
+    ],
+    "belphegors_blessing": {
+        "type": "the type",
+        "count": "1"
+    },
+    "essences": [
+        {
+            "type": "the type",
+            "count": "1"
+        }
+    ],
+    "worn_effects": [
+        {
+            "name": "required",
+            "effects": [
+                "effect list"
+            ]
+        },
+        {
+            "name": "When worn:",
+            "effects": [
+                "+1.5 Explosion Knockback Resistance",
+                "-150% Burning Time"
+            ]
+        }
+    ],
+    "kill_count": "optional",
+    "soul_bound": "optional",
+    "tooltip": [
+        [
+            {
+                "color": "Gray",
+                "text": "Bab-ilu"
+            }
+        ],
+        [
+            {
+                "color": "Gray",
+                "features": [
+                    "Bold"
+                ],
+                "text": "Sharpness "
+            },
+            {
+                "color": "Green",
+                "text": " XXXVIII"
+            }
+        ]
+    ]
+}

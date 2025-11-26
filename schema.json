@@ -1,0 +1,190 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "Minewind Item Schema",
+  "description": "An item schema for pieces all features of an item on Minewind",
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string",
+      "description": ""
+    },
+    "item_type": {
+      "type": "string"
+    },
+    "key_type": {
+      "type": "string",
+      "description": ""
+    },
+    "lore_origin": {
+      "type": "string",
+      "description": ""
+    },
+    "enchantments": {
+      "type": "array",
+      "items": {
+        "additionalProperties": false,
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "level": {
+            "type": "string"
+          },
+          "hidden": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ]
+      },
+      "minItems": 0
+    },
+    "lore": {
+      "type": "array",
+      "description": "",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 0
+    },
+    "belphegors_blessing": {
+      "additionalProperties": false,
+      "type": "object",
+      "description": "",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "count": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "count",
+        "type"
+      ]
+    },
+    "essences": {
+      "type": "array",
+      "description": "",
+      "items": {
+        "additionalProperties": false,
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "count": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "count",
+          "type"
+        ]
+      },
+      "minItems": 0
+    },
+    "worn_effects": {
+      "type": "array",
+      "description": "",
+      "items": {
+        "additionalProperties": false,
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "effects": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 0
+          }
+        },
+        "required": [
+          "effects",
+          "name"
+        ]
+      },
+      "minItems": 0
+    },
+    "kill_count": {
+      "type": "string",
+      "description": ""
+    },
+    "soul_bound": {
+      "type": "string",
+      "description": ""
+    },
+    "tooltip": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "additionalProperties": false,
+          "type": "object",
+          "properties": {
+            "color": {
+              "enum": [
+                "Black",
+                "Dark Blue",
+                "Dark Green",
+                "Dark Aqua",
+                "Dark Red",
+                "Purple",
+                "Gold",
+                "Gray",
+                "Dark Gray",
+                "Blue",
+                "Green",
+                "Aqua",
+                "Red",
+                "Light Purple",
+                "Yellow",
+                "White"
+              ],
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "features": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "Obfuscated",
+                  "Bold",
+                  "Strikethrough",
+                  "Underline",
+                  "Italic"
+                ],
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "color",
+            "text"
+          ]
+        },
+        "minItems": 0
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "item_type",
+    "name"
+  ]
+}
