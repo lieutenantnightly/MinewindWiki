@@ -1,0 +1,34 @@
+{
+    "name": "Bab-ilu",
+    "item_type": "variable gold tool",
+    "image": {
+        "path": "bab-ilu.webp"
+    },
+    "enchantments": [
+        {
+            "name": "Sharpness",
+            "level": "37"
+        },
+        {
+            "name": "Indestructible",
+            "level": ""
+        },
+        {
+            "name": "Undroppable",
+            "level": ""
+        }
+    ],
+    "date": "August 2022",
+    "lore": [
+        "The things we can't obtain",
+        "are the most beautiful ones.",
+        "- Gilgamesh"
+    ],
+    "essences": [
+        {
+            "name": "Gate Of Babylon",
+            "level": "",
+            "note": "Custom essence that only exists on Bab-ilu"
+        }
+    ]
+}

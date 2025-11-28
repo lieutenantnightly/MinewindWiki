@@ -88,6 +88,23 @@
       },
       "minItems": 0
     },
+    "soul_generates": {
+      "additionalProperties": false,
+      "type": "object",
+      "description": "",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "count": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "count",
+        "type"
+      ]
+    },
     "belphegors_blessing": {
       "additionalProperties": false,
       "type": "object",
@@ -112,16 +129,22 @@
         "additionalProperties": false,
         "type": "object",
         "properties": {
-          "type": {
+          "name": {
             "type": "string"
           },
-          "count": {
+          "level": {
+            "type": "string"
+          },
+          "locked": {
+            "type": "string"
+          },
+          "note": {
             "type": "string"
           }
         },
         "required": [
-          "count",
-          "type"
+          "name",
+          "level"
         ]
       },
       "minItems": 0
@@ -156,6 +179,10 @@
       "description": ""
     },
     "soul_bound": {
+      "type": "string",
+      "description": ""
+    },
+    "date": {
       "type": "string",
       "description": ""
     },

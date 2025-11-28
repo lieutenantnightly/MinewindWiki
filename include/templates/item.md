@@ -1,5 +1,4 @@
 {% if item.image is defined %}
-
 {% if item["image"].description is defined %}
 
 ![{{ item["name"] }}](site:assets/{{ item["image"]["path"] }}){ data-description="{{ item["image"]["description"] }}" align=right width="300" }
@@ -9,7 +8,6 @@
 ![{{ item["name"] }}](site:assets/{{ item["image"]["path"] }}){ data-description="{{ item["name"] }}" align=right width="300" }
 
 {% endif %}
-
 {% endif %}
 
 Title: {{ item["name"] }}
@@ -29,8 +27,12 @@ Item Type: {{ item["item_type"] }}
   Belphegors Blessing: {{ item["belphegors_blessing"]["type"] }} {{ item["belphegors_blessing"]["count"] }}
 {% endif %}
 
-{% if item.kill_counter is defined %}
-  Has Kill Counter
+{% if item.kill_count is defined %}
+  {% if item["kill_count"] == "" %}
+  Kill Count: Unknown/Variable
+  {% else %}
+  Kill Count: {{ item["kill_count"] }}
+  {% endif %}
 {% endif %}
 
 {% if item.soul_bound is defined %}

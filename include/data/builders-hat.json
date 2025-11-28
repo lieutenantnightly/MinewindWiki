@@ -3,6 +3,11 @@
     "image": {
         "path": "builders-hat.webp"
     },
+    "additional_images": [
+        {
+            "path": "builders-hat-item.webp"
+        }
+    ],
     "item_type": "turtle_helmet",
     "enchantments": [
         {
@@ -61,6 +66,14 @@
                 "+1.5 Explosion Knockback Resistance",
                 "-150% Burning Time"
             ]
+        }
+    ],
+    "essences": [
+        {
+            "name": "",
+            "level": "",
+            "locked": "",
+            "note": "Unknown ability that does not show in /stats"
         }
     ],
     "soul_bound": "SliquifierC"

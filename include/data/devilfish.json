@@ -23,23 +23,5 @@
         "Contains the power of over 9000 fish!",
         "Caught by: CntyMcShttr"
     ],
-    "kill_count": "",
-    "worn_effects": [
-        {
-            "name": "When on Head:",
-            "effects": [
-                "+2 Armor",
-                "+10 Oxygen Bonus",
-                "+400% Submerged Mining Speed"
-            ]
-        },
-        {
-            "name": "When worn:",
-            "effects": [
-                "+1.5 Explosion Knockback Resistance",
-                "-150% Burning Time"
-            ]
-        }
-    ],
-    "soul_bound": "SliquifierC"
+    "kill_count": ""
 }

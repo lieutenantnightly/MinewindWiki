@@ -8,6 +8,7 @@ theme:
   favicon: assets/wind-solid-full.svg
   features:
     - navigation.footer
+    - content.footnote.tooltips
   palette: 
     # Dark Mode
     - scheme: slate
@@ -56,6 +57,8 @@ markdown_extensions:
   # Better image functionality
   - md_in_html
   - pymdownx.blocks.caption
+  # Footnote support
+  - footnotes
 
 plugins:
   - tags

@@ -1,23 +1,10 @@
 {
     "name": "Angry Broom",
     "image": {
-        "path": "angry-broom.webp",
-        "description": "Item in game"
+        "path": "angry-broom.webp"
     },
-    "additional_images": [
-        {
-            "path": "builders-hat.webp",
-            "description": "A hat"
-        },
-        {
-            "path": "angry-broom.webp"
-        },
-        {
-            "path": "devilfish.webp",
-            "description": "A fish"
-        }
-    ],
     "item_type": "wheat",
+    "lore_origin": "<MISSING>",
     "enchantments": [
         {
             "name": "sharpness",
