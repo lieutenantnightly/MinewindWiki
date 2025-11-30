@@ -19,6 +19,8 @@ Competitive/Co-op events that are hosted randomly every hour or two. These event
 - [[beef]]
 - [[labyrinth]]
 - [[snovasion]]
+- [[free-for-all]]
+- [[team-deathmatch]]
 
 ## Weekly Events
 
