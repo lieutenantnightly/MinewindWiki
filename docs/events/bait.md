@@ -17,11 +17,11 @@ Time Span: 15 Minutes
 
 | Rank | Prizes |
 | --- | --- |
-| 1st place | -?x Dragon Eggs<br/>- 1x Jester key (rest unconfirmed) |
-| 2nd place |	-?x Dragon Eggs<br/>- 1x Jester Key (rest unconfirmed)
-| 3rd place |	-?x Dragon Eggs<br/>- 1x Jester Key (Rest unconfirmed)
-| 4th – 15th Place |	-30x Dragon Eggs<br/>- some MWGC?
-| 16th+ |	14 Dragon Eggs 
+| 1st place | -64x Dragon Eggs<br/>- 1x Jester key<br>/1- 10x Nether Stars<br>/1- 51x Minewind Gold Coins<br>/1- 3x Evolved Blue Fish |
+| 2nd place |	-50x Dragon Eggs<br/>- 1x Jester Key<br>/1- 7x Nether Stars<br>/1- 25x Minewind Gold Coins<br>/1- 2x Evolved Blue Fish |
+| 3rd place |	-?x Dragon Eggs<br/>- 1x Jester Key (Rest unconfirmed) |
+| 4th – 15th Place |	-30x Dragon Eggs |
+| 16th+ |	14 Dragon Eggs |
 
 ## Resources
 
